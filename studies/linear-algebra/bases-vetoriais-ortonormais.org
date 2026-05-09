@@ -1,0 +1,27 @@
+:PROPERTIES:
+:ID:       43c12c17-381c-4bdb-aab4-83d89af733dd
+:aliases:  Orthonormal Basis
+:projeto:  linear-algebra
+:zid:      202605091547
+:END:
+#+title: Base Ortonormal
+#+filetags: :linear-algebra:draft:
+
+* Base Vetorial Ortonormal em $\mathbf{R}^{2}$
+Uma base vetorial é *ortonormal* em $\mathbf{R}^{2}$ se, e somente se, os dois vetores que a compõem são *ortogonais* entre si e *suas normas são unitárias*. Isto é, seja $\mathbf{B} = \{\vec{u}, \vec{v}\}$ é ortonormal $\iff$
+$$||\vec{u}|| = ||\vec{v}|| = 1$$
+e
+$$\vec{u} \cdot \vec{v} = 0$$
+
+* Base Vetorial Ortonormal em $\mathbf{R}^{3}^{}$
+Seja  $\mathbf{B} = \{\vec{u}, \vec{v}\, \vec{w}\}$. $\mathbf{B}$ é ortonormal $\iff$
+$$||\vec{u}|| = ||\vec{v}|| = ||\vec{w}|| = 1$$
+e
+$$\vec{u} \cdot \vec{v} = \vec{u} \cdot \vec{w} = \vec{v} \cdot \vec{w} = 0$$
+
+** Base Vetorial Ortonormal de /Mão Direita/
+Muito importante em Geometria Computacional, dizemos que uma base vetorial ortonormal é de /mão direita/ se, e somente se,
+
+$$\vec{w} = \vec{u} \times \vec{v}$$
+
+Caso contrário, dizemos que a base ortonormal é de /mão esquerda/.
